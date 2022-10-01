@@ -1,0 +1,1 @@
+Return Boolean if number is divisible by 10
