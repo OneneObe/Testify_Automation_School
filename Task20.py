@@ -21,7 +21,7 @@ class Human:
         print("\nHuman {", self.leg_count, ",", self.sex + "}")
 
 
-class Man(Human):
+class Woman(Human):
 
     legs = "none"
 
@@ -30,5 +30,5 @@ class Man(Human):
         self.sex = sex
 
 
-man1 = Man("Female", "Binary")
-man1.get_gender()
+Woman1 = Woman("Female", "Binary")
+Woman1.get_gender()
