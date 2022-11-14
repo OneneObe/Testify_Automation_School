@@ -31,8 +31,8 @@ jobs:
      - run: python Task23.py
      - run: python Task24.py
      - run: python Task25.py
-     - run: Python_Challenge_1.py
-     - run: Pyton_Challenge_2.py
+     - run: python challenge 1.py
+     - run: pyton_challenge_2.py
      - run: Pyton_Challenge_3.py
      - run: Pyton_Challenge_4.py
      - run: Pyton_Challenge_5.py
