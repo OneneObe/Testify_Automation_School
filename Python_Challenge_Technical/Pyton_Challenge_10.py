@@ -11,3 +11,11 @@ def sen_case():
 
 
 sen_case()
+
+
+def to_sentence_case(val):
+    result = val[0].upper() + val[1:]
+    print(result)
+
+
+to_sentence_case("Great is your faithfulness")

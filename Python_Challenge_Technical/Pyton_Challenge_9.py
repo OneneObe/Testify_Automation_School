@@ -12,4 +12,4 @@ def to_upper(string):
     print(upper_c)
 
 
-to_upper("happiness")
+to_upper(['h', 'a', 'p', 'i', 'n', 'e', 's', 's'])

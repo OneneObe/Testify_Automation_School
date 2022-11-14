@@ -5,10 +5,12 @@ function.
 
 
 def exponent(num, exp):
-    result = 0
+    result = 1
     for i in range(exp):
         result *= num
     return result
 
 
 print(pow(7, 5))
+print(exponent(7, 5))
+

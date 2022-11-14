@@ -8,7 +8,9 @@ def print_odd(num):
     odd_num = []
     for i in num:
         if i % 2 != 0:
-            print(i)
+            odd_num.append(i)
+
+    print(odd_num)
 
 
 print_odd([1, 2, 3, 4, 5, 6])

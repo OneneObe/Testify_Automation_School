@@ -9,8 +9,15 @@ def is_a_palindrome(string):
         print("Not a Palindrome")
 
 
-is_a_palindrome("meme")
-is_a_palindrome("madam")
-is_a_palindrome("raddar")
-is_a_palindrome("Deified")
-is_a_palindrome("2/22/22")
+#is_a_palindrome("meme")
+#is_a_palindrome("madam")
+#is_a_palindrome("raddar")
+#is_a_palindrome("Deified")
+#is_a_palindrome("2/22/22")
+
+onene = "madam"
+print(onene)
+print(onene[0])
+print(onene[-1])
+print(onene[::-1])
+
