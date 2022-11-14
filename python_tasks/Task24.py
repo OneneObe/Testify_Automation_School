@@ -14,7 +14,8 @@
 #
 # Optionally instantiate the Car and Plane method, then invoke the drive_direction() in each of the object instances.
 #
-# Hint: the drive_direction() method in your Car should print "Drive forward", while drive_direction() in your Plane class should print "Drive Upward"
+# Hint: the drive_direction() method in your Car should print "Drive forward";
+# while drive_direction() in your Plane class should print "Drive Upward"
 import abc
 
 

@@ -4,13 +4,13 @@ function's correctness.
 """
 
 
-def sen_case():
+""" def sen_case():
     sentence = "Python lessons for testers."
     convert_sentence = sentence.title()
     print(convert_sentence)
 
 
-sen_case()
+sen_case()"""
 
 
 def to_sentence_case(val):
