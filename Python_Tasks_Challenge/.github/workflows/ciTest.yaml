@@ -1,0 +1,47 @@
+
+name: Github Actions Demo
+on: [ push ]
+jobs:
+ Test:
+   runs-on: windows-latest
+   steps:
+     - uses: actions/checkout@v2
+     - run: echo " The job was automatically triggered by a ${{ github.event_name }} event. "
+     - run: python Task2.py
+     - run: python Task3.py
+     - run: python Task4.py
+     - run: python Task5.py
+     - run: python Task6.py
+     - run: python Task7.py
+     - run: python Task8.py
+     - run: python Task9.py
+     - run: python Task10.py
+     - run: python Task11.py
+     - run: python Task12.py
+     - run: python Task13.py
+     - run: python Task14.py
+     - run: python Task15.py
+     - run: python Task16.py
+     - run: python Task17.py
+     - run: python Task18.py
+     - run: python Task19.py
+     - run: python Task20.py
+     - run: python Task21.py
+     - run: python Task22.py
+     - run: python Task23.py
+     - run: python Task24.py
+     - run: python Task25.py
+     - run: python challenge 1.py
+     - run: pyton_challenge_2.py
+     - run: Pyton_Challenge_3.py
+     - run: Pyton_Challenge_4.py
+     - run: Pyton_Challenge_5.py
+     - run: Pyton_Challenge_6.py
+     - run: Pyton_Challenge_7.py
+     - run: Pyton_Challenge_8.py
+     - run: Pyton_Challenge_9.py
+     - run: Pyton_Challenge_10.py
+
+
+
+
