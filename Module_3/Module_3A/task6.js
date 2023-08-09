@@ -1,8 +1,41 @@
-const side1 = 10
-const side2 = 15
-const side3 = 10
-if (side1 === side2 && side2 === side3){
-    console.log("Equilateral Triangle")
-} else if(side1 === side2 || side1 === side3 || side2 === side3){
-    console.log("Isosceles triangle")
-}else{"Scalene triangle"}
+/**Task 6
+Task: Odd or even?
+
+
+
+Write a Javascript program that checks if a given number, number is odd or even. 
+If the number is odd, print to the console: number is odd. If  the number is even, print to the console: number is even 
+
+Hint: An even number is divisible by 2. Hence, for an even number, the expression, 
+
+number % 2 === 0 will evaluate to true
+
+
+
+Steps
+
+Initialize a variable, number and assign it any number of your choice.
+
+Write an if statement check if number is divisible by 2 (HINT: use the modulus operator)
+
+Log the string number is even to the console if the number is divisible by 2
+
+Add an else block
+
+Inside the else block, log number is even to the console
+
+You can test your code by assigning different values to the number variable in step 1 
+
+ */
+
+
+const number = 33;
+
+//check if the number is even
+if(number % 2 == 0) {
+    console.log("The number is even.");
+}
+// if the number is odd
+else {
+    console.log("The number is odd.");
+}
